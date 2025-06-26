@@ -1,4 +1,5 @@
-![microsoft-azure](https://github.com/user-attachments/assets/b0706064-5fed-4587-8418-3a7f0e6fc896) 
+![microsoft-azure](https://summ-it.eu/wp-content/uploads/2022/08/image10az.png)
+
 
 <h1>Creating a Virtual Machine (Windows and Linux) using Azure</h1>
 This tutorial outlines the setup process for a Windows and Linux Virtual Machine using the Azure Cloud.
