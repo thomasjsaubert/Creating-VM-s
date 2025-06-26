@@ -128,12 +128,10 @@ This tutorial outlines the process for creating Virtual Machines in Azure — in
 ![Virtual MachinesL4](https://github.com/user-attachments/assets/baa0062e-501d-41f8-9772-4b86230db24b)
 
 ---
-
 ## 🧾 Conclusion
 
 We successfully created a **Resource Group**, a **Windows 10 Virtual Machine**, and a **Linux Ubuntu Virtual Machine** in Microsoft Azure. These VMs will be used for upcoming labs and practice environments.
 
-> 💡 **Tip:** If you're not done using these VMs, it's a good idea to keep them for future labs.
-
-- ⚠️ If you don’t plan on using the VMs right away, be sure to **stop** them — otherwise, Azure will charge you while they are running.
-- If you plan to use them soon, you can leave them **running** or **start** them later from the Azure portal.
+> 💡 **Tip:** If you're not done using these VMs, it's a good idea to keep them for future labs.  
+> ⚠️ If you don’t plan on using the VMs right away, be sure to **stop** them — otherwise, Azure will charge you while they are running.  
+> If you plan to use them soon, you can leave them **running** or **start** them later from the Azure portal.
