@@ -1,29 +1,42 @@
-![microsoft-azure](https://summ-it.eu/wp-content/uploads/2022/08/image10az.png)
+![Microsoft Azure](https://summ-it.eu/wp-content/uploads/2022/08/image10az.png)
 
+# 🧱 Creating a Virtual Machine (Windows and Linux) Using Azure
 
-<h1>Creating a Virtual Machine (Windows and Linux) using Azure</h1>
-This tutorial outlines the setup process for creating a Virtual Machine using Azure, and we will be creating Windows and Linux
+This tutorial outlines the process for creating Virtual Machines in Azure — including both Windows and Linux environments.
 
-<h2>Prerequisite</h2>
+---
 
-  - [Microsoft Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB_k_&OCID=AIDcmmfq865whp_SEM__k_Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB_k_&gad_source=1&gbraid=0AAAAADcJh_uVoYZIZMJRJFQ3v8k-BGmp2&gclid=Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB)
+## 🛠️ Prerequisites
 
-<h2>Environments and Technologies Used</h2>
+- A valid [Microsoft Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB_k_&OCID=AIDcmmfq865whp_SEM__k_Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB_k_&gad_source=1&gbraid=0AAAAADcJh_uVoYZIZMJRJFQ3v8k-BGmp2&gclid=Cj0KCQjwzYLABhD4ARIsALySuCTvMpKHbOeSo9lv81A8vCg1XGDNwpOIuOsD2o8pmLnyl7dVku-Yn3IaApK-EALw_wcB)
 
-- Microsoft Azure 
+---
 
-<h2>Operating Systems Used </h2>
+## 💻 Environments and Technologies Used
+
+- Microsoft Azure Cloud Platform
+
+---
+
+## 🖥️ Operating Systems Used
 
 - Windows 10 (22H2)
-- Linux Ubuntu
+- Linux Ubuntu (Latest LTS)
 
-<h2>Steps We Will Take</h2>
+---
 
-  - Step 1: Create a Resource Group in Azure
-  - Step 2: Create the Windows 10 VM in Azure
-  - Step 3: Create the Linux Ubuntu VM in Azure
+## 🧭 Steps We Will Follow
 
-<h2>Process in Creating the Virtual Machine in Azure</h2>
+1. Create a Resource Group in Azure  
+2. Create a Windows 10 Virtual Machine  
+3. Create a Linux Ubuntu Virtual Machine  
+
+---
+
+## ⚙️ Process: Creating Virtual Machines in Azure
+
+_(Step-by-step instructions to go here...)_
+
 
 <h2>Step 1 - Create a Resource Group</h2>
 
