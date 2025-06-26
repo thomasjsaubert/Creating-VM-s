@@ -97,43 +97,43 @@ This tutorial outlines the process for creating Virtual Machines in Azure — in
 ![Virtual Machines1](https://github.com/user-attachments/assets/573a48a7-e10b-4de2-9ac2-f09d63c59ee2)  
 ![Virtual Machines2](https://github.com/user-attachments/assets/79e868a3-497c-408f-a3c1-c2f745a969e9)
 
-- Repeat the steps from above with these changes:
-  - Use the **same Resource Group**.
-  - Choose **Ubuntu Server** as the image.
+- Select the **Resource Group** you just created.
+- Name your Virtual Machine.
+- Choose the **Region** that matches your Resource Group.
 
-![Step 3a](https://github.com/user-attachments/assets/3a7f7148-5e51-44a5-bc81-65c7faf5e52b)
+![Virtual Machines3](https://github.com/user-attachments/assets/a0b42ba4-5e63-4810-aedc-01b4fcc48a27)
 
-- For **Authentication Type**, select **Password** instead of the default SSH key.
-- Create a **username and password**.
+- For the **Image**, select **Ubuntu 22.04 LTS**.
+- For the **Size**, choose an option with at least **2 vCPUs** to avoid slowness.  
+  > 💡 If you don't see that option right away, click **"See all sizes"**.
 
-![Step 3b](https://github.com/user-attachments/assets/7a1d0698-7e74-4f52-9941-c0757dc25468)
+![Virtual MachinesL1](https://github.com/user-attachments/assets/c45e91b0-1390-4953-a240-1453455bea27)
+
+- For **Authentication Type**, select **Password** instead of the default **SSH public key**.
+- Create a **Username** and **Password** for your VM.
+- Click **Next** twice to proceed to Networking.
+
+![Virtual MachinesL2](https://github.com/user-attachments/assets/a2bdff63-969f-4dc0-81ff-352cbbbb9303)
 
 - Under **Networking**, make sure to use the **same virtual network** as your Windows VM.
+- Leave the remaining settings at default.
+- Click **Review + Create**, then click **Create**.
 
-![Step 3c](https://github.com/user-attachments/assets/9b8999ca-69ab-4f8a-8d68-682a07921c5c)
-
-- Leave other options at default, then click **Review + Create** → **Create**.
-
-![Step 3d](https://github.com/user-attachments/assets/56278c5d-bdfd-41f8-b3aa-aa2bc7d8b736)
+![Virtual MachinesL3](https://github.com/user-attachments/assets/a6b431a8-3210-4d51-ac00-31bdb3177e79)
 
 > ✅ Wait a few minutes for the VM to deploy.
 
-![Step 3e](https://github.com/user-attachments/assets/f4df4b67-1c41-45b3-96f3-5b048aec79a1)
+- Once the deployment is complete, return to the **Virtual Machines** page to see both your Windows and Linux VMs listed and running.
 
-- Go to **Resource Groups** to view both of your VMs.
-
-![Step 3f](https://github.com/user-attachments/assets/8d61580f-2be4-4985-a472-c00375e28101)
-![Step 3g](https://github.com/user-attachments/assets/c5fe4f42-aa2d-4fe6-87e6-38724b5b86f6)
-
-- ⚠️ If you aren’t using the VMs immediately, **stop them** to avoid charges.
-- If you're using them soon, leave them **running** or **turn them on** when needed.
-
-![Step 3h](https://github.com/user-attachments/assets/8a9f86d2-d940-4929-9f56-f1923edc0d90)
+![Virtual MachinesL4](https://github.com/user-attachments/assets/baa0062e-501d-41f8-9772-4b86230db24b)
 
 ---
 
 ## 🧾 Conclusion
 
-We successfully created a Resource Group, a Windows 10 Virtual Machine, and a Linux Ubuntu Virtual Machine in Microsoft Azure. These VMs will be used for upcoming labs and practice environments.
+We successfully created a **Resource Group**, a **Windows 10 Virtual Machine**, and a **Linux Ubuntu Virtual Machine** in Microsoft Azure. These VMs will be used for upcoming labs and practice environments.
 
-> 💡 **Tip:** Unless you're done with them, it's a good idea to keep these VMs and not delete them yet.
+> 💡 **Tip:** If you're not done using these VMs, it's a good idea to keep them for future labs.
+
+- ⚠️ If you don’t plan on using the VMs right away, be sure to **stop** them — otherwise, Azure will charge you while they are running.
+- If you plan to use them soon, you can leave them **running** or **start** them later from the Azure portal.
