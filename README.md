@@ -91,6 +91,12 @@ This tutorial outlines the process for creating Virtual Machines in Azure — in
 
 ## 🐧 Step 3: Create a Linux (Ubuntu) Virtual Machine
 
+- In the Azure portal, use the search bar to look for **"Virtual Machines"** and click to open it.
+- On the **Virtual Machines** page, click **Create**, then select **"Virtual Machine"** to begin the setup process.
+
+![Virtual Machines1](https://github.com/user-attachments/assets/573a48a7-e10b-4de2-9ac2-f09d63c59ee2)  
+![Virtual Machines2](https://github.com/user-attachments/assets/79e868a3-497c-408f-a3c1-c2f745a969e9)
+
 - Repeat the steps from above with these changes:
   - Use the **same Resource Group**.
   - Choose **Ubuntu Server** as the image.
