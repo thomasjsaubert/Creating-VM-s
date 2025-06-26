@@ -2,7 +2,7 @@
 
 
 <h1>Creating a Virtual Machine (Windows and Linux) using Azure</h1>
-This tutorial outlines the setup process for a Windows and Linux Virtual Machine using the Azure Cloud.
+This tutorial outlines the setup process for creating a Virtual Machine using Azure, and we will be creating Windows and Linux
 
 <h2>Prerequisite</h2>
 
