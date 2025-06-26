@@ -35,53 +35,57 @@ This tutorial outlines the process for creating Virtual Machines in Azure — in
 
 ## ⚙️ Step 1: Create a Resource Group
 
-- In the Azure portal, search for **"Resource Groups"** and select it.
-- Click **Create**.
+- In the Azure portal, use the search bar to look for **"Resource Groups"** and click to open it.
+- In the top-left corner, click **Create** to begin the process.
 
-![Step 1a](https://github.com/user-attachments/assets/8ed62e36-488a-443e-ab73-839f54cffa3e)
-![Step 1b](https://github.com/user-attachments/assets/3e024aba-d653-48e3-945f-4968becf4553)
+![Resource Groups1](https://github.com/user-attachments/assets/d569520b-d7f3-4387-a046-b1b71c5497ac)  
+![Resource Group2](https://github.com/user-attachments/assets/db635c7f-b67d-4a76-9c5b-2631a121c520)
 
 - Select your **Subscription**.
 - Enter a **Resource Group Name**.
-- Choose a **Region** closest to you.
-- Click **Review + Create**.
+- Choose the **Region** closest to you.
+- Scroll down and click **Review + Create** at the bottom.
 
-![Step 1c](https://github.com/user-attachments/assets/4b253bbc-ce0c-46df-8eac-fbf8187f9562)
+![Resource Groups3](https://github.com/user-attachments/assets/caff40f9-10fe-4018-8c3a-04103a8fba93)
 
-- Once validated, click **Create**.
+- Once validation passes, click **Create** to finish.
 
-![Step 1d](https://github.com/user-attachments/assets/949d869f-5867-43b1-a243-1ba378a3f994)
+![Resource Groups4](https://github.com/user-attachments/assets/39eb199b-bd6b-4323-a546-ec61146ebb84)
 
----
 
 ## 🪟 Step 2: Create the Windows 10 Virtual Machine
 
-- In Azure, search for **"Virtual Machines"**, then click **Create** → **Virtual Machine**.
+- In the Azure portal, use the search bar to look for **"Virtual Machines"** and click to open it.
+- On the **Virtual Machines** page, click **Create**, then select **"Virtual Machine"** to begin the setup process.
 
-![Step 2a](https://github.com/user-attachments/assets/d79c9081-f3af-4780-8c94-aecdacf02bc9)
+![Virtual Machines1](https://github.com/user-attachments/assets/573a48a7-e10b-4de2-9ac2-f09d63c59ee2)  
+![Virtual Machines2](https://github.com/user-attachments/assets/79e868a3-497c-408f-a3c1-c2f745a969e9)
 
 - Select the **Resource Group** you just created.
-- Name your virtual machine.
+- Name your Virtual Machine.
+- Choose the **Region** that matches your Resource Group.
 
-![Step 2b](https://github.com/user-attachments/assets/1b58f672-d20f-435a-8854-6a12ff21521e)
+![Virtual Machines3](https://github.com/user-attachments/assets/a0b42ba4-5e63-4810-aedc-01b4fcc48a27)
 
-- Select an **Availability Zone**.
-- For the **Image**, choose **Windows 10 Pro**.
-- For **Size**, choose one with at least **2 vCPUs** to avoid slowness.
+- For the **Image**, select **Windows 10 Pro**.
+- For the **Size**, choose an option with at least **2 vCPUs** to avoid slowness.  
+  > 💡 If you don't see that option right away, click **"See all sizes"**.
 
-![Step 2c](https://github.com/user-attachments/assets/b997f4aa-d59b-4a6f-8fc3-95d143fb104d)
+![Virtual Machines4](https://github.com/user-attachments/assets/d8bbbe40-52d0-481a-b71f-9ef32f028faa)
 
-- Create a **username and password**.
-- Confirm **licensing terms**.
-- Click **Review + Create**.
+- Create a **Username** and **Password** for your VM.
+- Scroll down and **check the box to confirm the Windows licensing terms**.  
+  > ⚠️ If you skip this step, Azure will show an error and won’t pass the validation.
 
-![Step 2d](https://github.com/user-attachments/assets/7e984696-a66e-44d1-b39b-9aae13d4c302)
+- Click **Review + Create** to proceed.
 
-- Review the settings and click **Create**.
+![Virtual Machines5](https://github.com/user-attachments/assets/d8fb4e53-67ec-4a63-b216-ba1876effc2a)
 
-![Step 2e](https://github.com/user-attachments/assets/bd4e5f77-6eed-4c5d-9930-95e7b5516680)
+- If **Validation passes** and your settings look correct, click **Create** to deploy the VM.
 
-> ✅ The deployment will take a few minutes.
+![Virtual Machines6](https://github.com/user-attachments/assets/a1481572-7ced-4697-9af8-bef2f245bd4f)
+
+> ✅ **Deployment will take a few minutes**. Once complete, your Windows 10 VM will be ready to use.
 
 ---
 
